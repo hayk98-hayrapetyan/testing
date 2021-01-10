@@ -1,0 +1,37 @@
+{
+  "login": {
+    "title": "Login page",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "add_avatar": "PLease add your avatar",
+    "field": "Please fill in the field",
+    "emailError": "Please write a valid email address",
+    "min_max": "The name must be at least 3 and no more than 15 characters",
+    "min": "Password must be at least 8 characters",
+    "ferst_letter": "First character should be uppercase",
+    "alpha_numeric": "The password should contain and letters and numbers",
+    "alpha": "All characters must be Latin",
+    "avatar": "Avatar"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "edit": "Edit Profile"
+  },
+  "search": "search anything",
+  "edit": "Edit",
+  "size_error": "The File is so large",
+  "sort_alpha": "Sort By Alpha",
+  "sort_date": "Sort By Date",
+  "article": {
+    "title": "Title",
+    "text": "Context",
+    "author": "Author",
+    "date": "Date",
+    "tema": "Tema",
+    "image": "Image",
+    "add": "Add Article"
+  }
+}
