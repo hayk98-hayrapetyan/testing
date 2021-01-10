@@ -1,7 +1,7 @@
 <template>
   <div class="article">
         <div class="img">
-            <img :src="article.img.includes('http:') ? article.img : require(`@/assets/img/${article.img}`)"  :alt="article.title">
+            <img :src="article.img.includes('data:') ? article.img : require(`@/assets/img/${article.img}`)"  :alt="article.title">
         </div>
         <div class="txt">
             <div class="text-right">
@@ -55,6 +55,9 @@ export default {
     }
     h4 {
         margin: 20px 0;
+    }
+    .txt {
+        width: 100%;
     }
     .dates {
         display: flex;
